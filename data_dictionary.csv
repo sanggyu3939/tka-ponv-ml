@@ -1,0 +1,18 @@
+variable,feature_set,definition,coding
+PONV_24h,Outcome,Postoperative nausea or vomiting within 24 hours,0=No; 1=Yes
+surgery_date,Temporal variable,Date of total knee arthroplasty,YYYY-MM-DD
+age,Step 1,Age at surgery,Years; numeric
+sex,Step 1,Sex,M or F
+bmi,Step 1,Body mass index,kg/m^2; numeric
+smoking_status,Step 1,Current smoking status,No or Yes
+hypertension,Step 1,Hypertension,0=No; 1=Yes
+diabetes,Step 1,Diabetes mellitus,0=No; 1=Yes
+cardiovascular_disease,Step 1,Cardiovascular disease,0=No; 1=Yes
+cerebrovascular_disease,Step 1,Cerebrovascular disease,0=No; 1=Yes
+chronic_lung_disease,Step 1,Chronic lung disease,0=No; 1=Yes
+chronic_kidney_disease,Step 1,Chronic kidney disease,0=No; 1=Yes
+hx_PONV_or_motion,Step 2,History of PONV or motion sickness,No or Yes
+ADR_analgesic_NV,Step 2,Analgesic-related adverse drug reaction with nausea/vomiting,0=No; 1=Yes
+anesthesia_type,Step 3,Anesthetic technique,spinal or general
+LIA_use,Step 3,Local infiltration analgesia,0=No; 1=Yes
+dexamethasone_use,Step 3,Postoperative dexamethasone use,0=No; 1=Yes
